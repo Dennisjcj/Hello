@@ -3,11 +3,9 @@ from pygame.locals import *
 
 # set up pygame
 pygame.init()
-# Test. Hi everybody.
-# set up the window
-#windowSurface = pygame.display.set_mode((900, 900), 0, 32)
-windowSurface = pygame.display.set_mode((1024, 768), 0, 32)
 
+# set up the window
+windowSurface = pygame.display.set_mode((1024, 768), 0, 32)
 pygame.display.set_caption('Hello world!')
 
 # set up the colors
